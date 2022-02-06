@@ -8,7 +8,7 @@ public class MathFunc {
     }
 
     public static int func2(int x) {
-        int y = 1 / x;  // зачем так, здесь же всегда ноль будет, кроме 1
+        int y = 1 / x;
         return y;
     }
 
