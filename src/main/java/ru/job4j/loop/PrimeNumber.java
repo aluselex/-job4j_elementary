@@ -7,10 +7,10 @@ public class PrimeNumber {
         int count = 0;
         for (int i = 2; i <= finish; i++) {
             if (CheckPrimeNumber.check(i)) {
-                count += 1;
-                }
+                count++;
             }
+        }
         return count;
     }
-    }
+}
 
