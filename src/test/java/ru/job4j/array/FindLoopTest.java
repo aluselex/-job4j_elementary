@@ -13,6 +13,7 @@ public class FindLoopTest {
         int el = 5;
         int result = FindLoop.indexOf(data, el);
         int expected = 0;
+        Assert.assertEquals(expected, result);
     }
 
     @Test
@@ -21,5 +22,6 @@ public class FindLoopTest {
         int el = 10;
         int result = FindLoop.indexOf(data, el);
         int expected = -1;
+        Assert.assertEquals(expected, result);
     }
 }
