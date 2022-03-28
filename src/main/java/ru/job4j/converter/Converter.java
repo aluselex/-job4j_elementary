@@ -1,7 +1,6 @@
 package ru.job4j.converter;
 
 public class Converter {
-
     public static float rubleToEuro(float value) {
         float rls = value / 70;
         return rls;
@@ -27,7 +26,5 @@ public class Converter {
         out = Converter.rubleToDollar(in);
         passed = expected == out;
         System.out.println("180 rubles are 3. Test result : " + passed);
-
     }
-
 }
